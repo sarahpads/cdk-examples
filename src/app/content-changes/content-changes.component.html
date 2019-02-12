@@ -1,0 +1,7 @@
+I heard that {{ counter }} times!
+
+<div (cdkObserveContent)="onContentChange($event)">
+  <!--I like {{ item }}-->
+  <button (click)="thing = !thing">Show thing</button>
+  <div *ngIf="thing">Thing!</div>
+</div>
